@@ -71,6 +71,8 @@ function M.highlights(opts)
     Search = { fg = palette.yellow, bg = palette.darkYellow },
     CurSearch = { fg = palette.background, bg = palette.yellow },
 
+    Conceal = { fg = palette.foreground, bg = "NONE" },
+
     DiffAdd = { bg = palette.darkGreen },
     DiffChange = { bg = palette.darkYellow },
     DiffDelete = { bg = palette.darkRed },

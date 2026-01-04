@@ -87,7 +87,7 @@ function M.highlights(opts)
 
     Special = { fg = palette.purple, bg = "NONE" },
     SpecialKey = { fg = palette.brightBlack, bg = "NONE" },
-    Conceal = { fg = palette.black, bg = "NONE" },
+    Conceal = { fg = palette.foreground, bg = "NONE" },
 
     SpellBad = { fg = palette.red, style = "underline" },
     SpellCap = { fg = palette.blue, style = "underline" },
